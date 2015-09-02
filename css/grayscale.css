@@ -179,7 +179,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    margin-top: 30%;
+    margin-top: 15%;
     font-size: 36px;
 }
 
@@ -195,6 +195,7 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 450%;
+        margin-top: 10%;
     }
 
     .intro .intro-body .intro-text {
