@@ -25,13 +25,14 @@ h5,
 h6 {
     margin: 0 0 35px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
 p {
     margin: 0 0 25px;
     font-size: 18px;
+    font-weight: 500;
     line-height: 1.5;
 }
 
@@ -146,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/test3.1.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -174,22 +175,24 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 50px;
+        font-size: 48px;
+        margin-top: 5%;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 26px;
+        font-size: 21px;
+
     }
 }
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
+    width: 77px;
+    height: 77px;
+    margin-top: 17px;
+    padding: 8px 18px;
     border: 2px solid #fff;
     border-radius: 100%!important;
-    font-size: 40px;
+    font-size: 44px;
     color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
