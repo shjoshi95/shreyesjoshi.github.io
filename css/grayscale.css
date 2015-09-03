@@ -139,7 +139,7 @@ a:focus {
 }
 
 .navbar-left {
-    display: inherit;    
+    display: none;    
 }
 
 .navbar-left li.active a {
