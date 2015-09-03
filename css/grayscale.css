@@ -32,12 +32,26 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.5;
 }
 
 @media(min-width:768px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0 0 35px;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 250%;
+    }
+
     p {
         margin: 0 0 35px;
         font-size: 133%;
@@ -56,11 +70,6 @@ a:hover,
 a:focus {
     text-decoration: none;
     color: #1d9b6c;
-}
-
-.light {
-    font-weight: 400;
-    color: white;
 }
 
 .navbar-custom {
@@ -139,6 +148,11 @@ a:focus {
         padding: 0;
         border-bottom: 2px solid rgba(255,255,255,1);
         background: #000;
+    }
+
+    .light {
+        font-weight: 400;
+        color: white;
     }
 }
 
