@@ -138,6 +138,10 @@ a:focus {
     color: #fff;
 }
 
+.navbar-left {
+    display: none;
+}
+
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -158,6 +162,10 @@ a:focus {
     .light {
         font-weight: 400;
         color: white;
+    }
+
+    .navbar-left {
+        display: inherit;
     }
 }
 
