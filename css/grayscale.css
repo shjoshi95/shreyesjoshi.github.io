@@ -138,13 +138,13 @@ a:focus {
     color: #fff;
 }
 
-.navbar-left {
+/*.navbar-left {
     display: none;    
 }
 
 .navbar-left li.active a {
     display: none;
-}
+}*/
 
 @media(min-width:768px) {
     .navbar-custom {
