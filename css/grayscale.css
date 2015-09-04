@@ -123,12 +123,8 @@ a:focus {
 
 }
 
-.leftText {
-    text-align: left;
-}
-
-.leftText p{
-    padding-left: 5%;
+.left p {
+    padding-left: 5% !important;
 
 }
 
@@ -142,20 +138,20 @@ a:focus {
     height: inherit;
     border: 2px solid white;
     padding: 1%;
-    text-align: right;
-}
-
-.rightText {
     text-align: left;
 }
 
-.rightText p{
+.right p{
     padding-left: 5%;
 
 }
 
-.right img {
+.rightPic {
     height: 100%;
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 1%;
 }
 
 /*NAVBAR CSS*/
