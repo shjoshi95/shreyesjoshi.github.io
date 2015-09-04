@@ -123,8 +123,13 @@ a:focus {
 
 }
 
-.left p {
+.leftText {
+    text-align: left;
+}
+
+.leftText p{
     padding-left: 5%;
+
 }
 
 .left img {
@@ -140,14 +145,13 @@ a:focus {
     text-align: right;
 }
 
-.right p{
-    padding-left: 5%;
+.rightText {
     text-align: left;
-
 }
 
-.right h1, h2, h3, h4 {
-    text-align: left;
+.rightText p{
+    padding-left: 5%;
+
 }
 
 .right img {
