@@ -72,6 +72,10 @@ a:focus {
     color: #1d9b6c;
 }
 
+#home-name {
+
+}
+
 .light {
         font-weight: 400;
         color: white;
@@ -325,6 +329,7 @@ a:focus {
 
 .download-section {
     width: 100%;
+    height: 100%;
     padding: 50px 0;
     color: #fff;
     background: url(../img/widebeach.jpg) no-repeat center center scroll;
@@ -338,7 +343,7 @@ a:focus {
 #map {
     width: 100%;
     height: 200px;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
     border-top: 4px solid white;
     border-bottom: 4px solid white;
 }

@@ -7,8 +7,11 @@
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
+        $('#home-name').text('Shreyes Joshi');
         $(".navbar-fixed-top").addClass("top-nav-collapse");
+
     } else {
+        $('#home-name').text('Home');
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 });
