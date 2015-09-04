@@ -4,6 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/*HTML CSS*/
 body {
     width: 100%;
     height: 100%;
@@ -49,7 +50,6 @@ p {
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-weight: 400;
         letter-spacing: 1px;
-        font-size: 250%;
     }
 
     p {
@@ -72,6 +72,7 @@ a:focus {
     color: #1d9b6c;
 }
 
+/*CUSTOM CSS*/
 #home-name {
 
 }
@@ -89,6 +90,68 @@ a:focus {
         display: none;
     }
 
+.project {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    table-layout: fixed; 
+    height: 300px;
+    text-align: left;
+}
+
+@media(min-width:768px) {
+
+    .project {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        table-layout: fixed; 
+        height: 300px;
+        text-align: left;
+    }
+}
+
+.left {
+    float: left;
+    width: 50%;
+    border: 2px solid white;
+    padding: 1%;
+    height: inherit;
+
+}
+
+.left p {
+    padding-left: 5%;
+
+    }
+
+.left img {
+    height: 100%;
+    align: middle;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    height: inherit;
+    border: 2px solid white;
+    padding: 1%;
+
+}
+
+.right p {
+    padding-left: 5%;
+
+    }
+
+.right img {
+    height: 100%;
+
+}
+
+/*NAVBAR CSS*/
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 2px solid rgba(255,255,255,.3);
@@ -149,14 +212,6 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
     color: #fff;
 }
-
-/*.navbar-left {
-    display: none;    
-}
-
-.navbar-left li.active a {
-    display: none;
-}*/
 
 @media(min-width:768px) {
     
@@ -323,6 +378,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+
 }
 
 .download-section {
