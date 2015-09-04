@@ -189,13 +189,13 @@ a:focus {
         color: white;
     }
 
-    .navbar-left {
+/*    .navbar-left {
         display: inherit;
     }
 
     .navbar-left li.active a {
         display: inherit;
-    }
+    }*/
 }
 
 .intro {
