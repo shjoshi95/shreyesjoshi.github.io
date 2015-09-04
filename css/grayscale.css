@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 15px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
@@ -33,7 +33,7 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
 }
@@ -91,26 +91,15 @@ a:focus {
     }
 
 .project {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-    table-layout: fixed; 
-    height: 100px;
-    text-align: left;
+    width: 100%;
+    margin-bottom: 5%; 
+    overflow: hidden;
 }
 
-@media(min-width:768px) {
+.project p {
+    margin-bottom: 1%;
+    margin-left: 5%;
 
-    .project {
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-left: 2%;
-        margin-right: 2%;
-        table-layout: fixed; 
-        height: 300px;
-        text-align: left;
-    }
 }
 
 .left {
@@ -118,39 +107,44 @@ a:focus {
     width: 50%;
     border: 2px solid white;
     padding: 1%;
-    height: inherit;
     text-align: left;
 
-}
-
-.left p {
-    padding-left: 5% !important;
-
-}
-
-.left img {
-    height: 100%;
 }
 
 .right {
     float: right;
     width: 50%;
-    height: inherit;
     border: 2px solid white;
     padding: 1%;
-    text-align: left;
-}
-
-.right p{
-    padding-left: 5%;
-
-}
-
-.rightPic {
-    height: 100%;
-    float: right;
     text-align: right;
-    padding: 1%;
+}
+
+.leftText {
+    text-align: left;
+
+}
+
+.rightText {
+    text-align: right;
+
+}
+
+.pic {
+    max-height: 50vh;
+}
+
+@media(min-width:768px) {
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 3%;
+    }
+
+    .project p {
+        font-size: 120%;
+        margin-bottom: 1%;
+        margin-left: 5%;
+
+    }
 }
 
 /*NAVBAR CSS*/
@@ -406,7 +400,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 8%;
+        padding-top: 7%;
     }
 
     .download-section {
