@@ -110,14 +110,6 @@ a:focus {
 
 }
 
-.right {
-    float: right;
-    width: 50%;
-    padding: 1%;
-    text-align: right;
-    height: 100%;
-}
-
 .leftText {
     text-align: left;
     padding: 1%;
@@ -126,11 +118,11 @@ a:focus {
 
 .rightText {
     text-align: right;
+    padding: 1%;
 
 }
 
 .pic {
-    max-height: 50%;
     max-width: 90%;
     vertical-align: middle;
     padding: 1%;
