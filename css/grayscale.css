@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 15px;
+    margin-bottom: 5%;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
@@ -100,21 +100,13 @@ a:focus {
 
 .project {
     width: 100%;
-    margin-bottom: 7%; 
+    margin-bottom: 12%; 
     overflow: hidden;
 }
 
 .project p {
     margin-bottom: 1%;
     margin-left: 5%;
-
-}
-
-.left {
-    float: left;
-    width: 50%;
-    padding: 1%;
-    text-align: left;
 
 }
 
@@ -128,6 +120,7 @@ a:focus {
 
 .leftText {
     text-align: left;
+    padding: 1%;
 
 }
 
