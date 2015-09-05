@@ -132,6 +132,7 @@ a:focus {
     max-height: 50vh;
     vertical-align: middle;
     width: 450px;
+    padding: 1%;
 }
 
 @media(min-width:768px) {
