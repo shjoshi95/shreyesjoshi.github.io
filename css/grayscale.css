@@ -131,8 +131,8 @@ a:focus {
 }
 
 .pic {
-    /*max-height: 50vh;
-    vertical-align: middle;*/
+    max-height: 50vh;
+    vertical-align: middle;
     width: 450px;
 }
 
