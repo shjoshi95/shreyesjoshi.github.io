@@ -117,6 +117,7 @@ a:focus {
     border: 2px solid white;
     padding: 1%;
     text-align: right;
+    height: 100%;
 }
 
 .leftText {
@@ -130,7 +131,9 @@ a:focus {
 }
 
 .pic {
-    max-height: 50vh;
+    /*max-height: 50vh;
+    vertical-align: middle;*/
+    width: 450px;
 }
 
 @media(min-width:768px) {
