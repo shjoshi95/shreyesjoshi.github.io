@@ -105,7 +105,6 @@ a:focus {
 .left {
     float: left;
     width: 50%;
-    border: 2px solid white;
     padding: 1%;
     text-align: left;
 
@@ -114,7 +113,6 @@ a:focus {
 .right {
     float: right;
     width: 50%;
-    border: 2px solid white;
     padding: 1%;
     text-align: right;
     height: 100%;
