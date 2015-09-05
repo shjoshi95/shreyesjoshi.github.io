@@ -90,9 +90,17 @@ a:focus {
         display: none;
     }
 
+.mobile {
+        display: inherit;
+    }
+
+.pc {
+        display: none;
+    }
+
 .project {
     width: 100%;
-    margin-bottom: 5%; 
+    margin-bottom: 7%; 
     overflow: hidden;
 }
 
@@ -129,9 +137,9 @@ a:focus {
 }
 
 .pic {
-    max-height: 50vh;
+    max-height: 50%;
+    max-width: 90%;
     vertical-align: middle;
-    width: 450px;
     padding: 1%;
 }
 
@@ -143,9 +151,40 @@ a:focus {
 
     .project p {
         font-size: 120%;
-        margin-bottom: 1%;
-        margin-left: 5%;
 
+    }
+
+    .left {
+        float: left;
+        width: 50%;
+        padding: 1%;
+        text-align: left;
+
+    }
+
+    .right {
+        float: right;
+        width: 50%;
+        padding: 1%;
+        text-align: right;
+        height: 100%;
+    }
+
+    .leftText {
+        text-align: left;
+
+    }
+
+    .rightText {
+        text-align: right;
+
+    }
+
+    .pic {
+        max-height: 50%;
+        max-width: 90%;
+        vertical-align: middle;
+        padding: 1%;
     }
 }
 
@@ -218,6 +257,14 @@ a:focus {
     }
 
     #pc {
+        display: inherit;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .pc {
         display: inherit;
     }
 
