@@ -170,6 +170,7 @@ a:focus {
         max-height: 50%;
         max-width: 90%;
         vertical-align: middle;
+        text-align: center;
         padding: 1%;
     }
 }
