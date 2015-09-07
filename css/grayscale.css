@@ -175,6 +175,10 @@ a:focus {
     }
 }
 
+.title {
+    margin-top: 5%;
+}
+
 /*NAVBAR CSS*/
 .navbar-custom {
     margin-bottom: 0;
@@ -409,7 +413,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 10%;
+    padding-top: 15%;
 
 }
 
