@@ -124,6 +124,9 @@ a:focus {
 }
 
 .pic {
+    max-width: 90%;
+    vertical-align: middle;
+    padding: 1%;
 }
 
 @media(min-width:768px) {
