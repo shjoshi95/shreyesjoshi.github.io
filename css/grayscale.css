@@ -99,7 +99,7 @@ a:focus {
     }
 
 .pc_and_mobile {
-    display: inherit;
+    display: block;
 }
 
 .project {
