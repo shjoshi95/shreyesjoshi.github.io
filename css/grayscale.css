@@ -98,6 +98,10 @@ a:focus {
         display: none;
     }
 
+.pc_and_mobile {
+    display: inherit;
+}
+
 .project {
     width: 100%;
     height: 100%;
