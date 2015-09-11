@@ -121,9 +121,33 @@ a:focus {
 
 }
 
+.leftTextTech {
+    text-align: left;
+    padding: 1%;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: #D8DADA;
+    color: black;
+    margin-top: 4%;
+
+}
+
 .rightText {
     text-align: right;
     padding: 1%;
+
+}
+
+.rightTextTech {
+    text-align: right;
+    padding: 1%;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: #D8DADA;
+    color: black;
+    margin-top: 4%;
 
 }
 
@@ -169,8 +193,30 @@ a:focus {
 
     }
 
+    .leftTextTech {
+        text-align: left;
+        font-family: Menlo,Monaco,Consolas,"Courier New";
+        border: 2px solid white;
+        border-radius: 12px;
+        background-color: #D8DADA;
+        color: black;
+        margin-top: 4%;
+
+    }
+
     .rightText {
         text-align: right;
+
+    }
+
+    .rightTextTech {
+        text-align: right;
+        font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+        border: 2px solid white;
+        border-radius: 12px;
+        background-color: #D8DADA;
+        color: black;
+        margin-top: 4%;
 
     }
 
