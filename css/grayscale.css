@@ -77,6 +77,11 @@ a:focus {
 
 }
 
+#garden {
+    padding-top: 6%;
+    margin-top: -6%;
+}
+
 .light {
         font-weight: 400;
         color: white;
