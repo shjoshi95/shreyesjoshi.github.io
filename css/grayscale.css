@@ -19,6 +19,8 @@ html {
     height: 100%;
 }
 
+/* For Mobile Screens */
+
 h1,
 h2,
 h3,
@@ -36,27 +38,6 @@ p {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-}
-
-@media(min-width:768px) {
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        margin: 0 0 35px;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-weight: 400;
-        letter-spacing: 1px;
-    }
-
-    p {
-        margin: 0 0 35px;
-        font-size: 133%;
-        line-height: 1.6;
-    }
 }
 
 a {
@@ -110,7 +91,7 @@ a:focus {
 .project {
     width: 100%;
     height: 100%;
-    margin-bottom: 12%; 
+    margin-bottom: 12%;
     overflow: hidden;
 }
 
@@ -122,14 +103,14 @@ a:focus {
 
 .leftText {
     text-align: left;
-    padding: 1%;
 
 }
 
-.leftTextTech {
+.textTech {
     text-align: left;
     padding: 1%;
     font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    font-size: 16px !important;
     border: 2px solid white;
     border-radius: 12px;
     background-color: #D8DADA;
@@ -170,6 +151,29 @@ a:focus {
     margin-top: 5%;
 }
 
+/* For PC/Tablet Sized Screens */
+
+@media(min-width:768px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0 0 35px;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    p {
+        margin: 0 0 35px;
+        font-size: 133%;
+        line-height: 1.6;
+    }
+}
+
 @media(min-width:768px) {
 
     h1, h2, h3, h4, h5, h6 {
@@ -202,7 +206,7 @@ a:focus {
 
     }
 
-    .leftTextTech {
+    .textTech {
         text-align: left;
         font-family: Menlo,Monaco,Consolas,"Courier New";
         border: 2px solid white;
@@ -241,6 +245,7 @@ a:focus {
 
     .title {
         margin-top: 0%;
+        margin-bottom: 5%;
     }
 }
 
@@ -299,6 +304,10 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active div div a {
     background-color: rgba(255,255,255,.3);
 }
 
@@ -597,3 +606,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
