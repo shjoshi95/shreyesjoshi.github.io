@@ -214,6 +214,14 @@ a:focus {
         text-align: left;
     }
 
+    .caption {
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 130px !important;
+        margin-right: 20px !important;
+        font-size: 12px !important;
+    }
+
     .textTech {
         text-align: left;
         font-family: Menlo,Monaco,Consolas,"Courier New";
