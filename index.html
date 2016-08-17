@@ -217,44 +217,17 @@
                     <h3 class="leftTextTitle">Stock Price Trajectory Classification Independent Research:</h3>
                     <h4 class="leftTextTitle" style="font-style: italic;">Sept 2015. - June 2016</h4>
                     <p class="leftText">
-                        This research focused on generating a unique stock price forecasting model through
-                        machine learning using fundamental data that is publically available to all types
-                        of investors. Unlike hedge funds, who have exclusive access to premier and costly
-                        training data acquired through financial service providers, the common investor only
-                        has access to basic public information including price, volume, and options data.
-                        Using public data as a feature set, this research studies the effectiveness of training
-                        5 machine learning models using <strong>w</strong> days of financial history to predict
-                        how a stock’s price will rise or fall <strong>k</strong> days away within a certain
-                        target radius <strong>r</strong>.
+                        This research focused on generating a unique stock price forecasting model through machine learning using fundamental data that is publically available to all types of investors. Unlike hedge funds, who have exclusive access to premier and costly training data acquired through financial service providers, the common investor only has access to basic public information including price, volume, and options data. Using public data as a feature set, this research studies the effectiveness of training 5 machine learning models using <strong>w</strong> days of financial history to predict how a stock’s price will rise or fall <strong>k</strong> days away within a certain target radius <strong>r</strong>.
                     </p>
                     <p class="leftText">
-                        The study primarily analyzed 3 stocks – Apple, Disney, and Nike, for their market
-                        scale and diversified representation of different sectors of the global market.
-                        Using numerous experimental methods, analysis, and thorough customized software
-                        modules programmed in Python, the model described above was successfully formulated.
-                        Moreover, the precision score accuracies for the experimental parameters (w, k, r)
-                        were optimized for the Support Vector Machine (SVM) model. The SVM’s performance is
-                        highlighted at the crux of this report.
+                        The study primarily analyzed 3 stocks – Apple, Disney, and Nike, for their market scale and diversified representation of different sectors of the global market. Using numerous experimental methods, analysis, and thorough customized software modules programmed in Python, the model described above was successfully formulated. Moreover, the precision score accuracies for the experimental parameters (w, k, r) were optimized for the Support Vector Machine (SVM) model.
                     </p>
                     <p class="leftText">
-                        The framework of this research was based in Python, and as a result the “scikit-learn”,
-                        “pandas” and “numpy” were used in conjunction to implement five different ML algorithms:
-                        Logistic Regression, Naïve-Bayes Gaussian, K Neighbors Classifiers, the Decision Tree
-                        Classifier, and the Support Vector Machine (SVM). Since this research deals with a binary
-                        classification problem into the classes {1, -1}, for upward or downward movement, all
-                        five of these algorithms were trained based on the model detailed above. Each model’s
-                        performance was then evaluated on a corresponding testing data set, where the results
-                        were quantified with a precision score in the range of 0 to 1 that demonstrated the accuracy
-                        of classifying particular examples correctly.
+                        Since the framework of this research was based in Python, and as a result the “scikit-learn”, “pandas” and “numpy” were used in conjunction to implement five different ML algorithms: Logistic Regression, Naïve-Bayes Gaussian, K Neighbors Classifiers, the Decision Tree Classifier, and the Support Vector Machine (SVM). Since this research deals with a binary classification problem into the classes {1, -1}, for upward or downward movement, all five of these algorithms were trained based on the model detailed above. Each model’s performance was then evaluated on a corresponding testing data set, where the results were quantified with a precision score in the range of 0 to 1 that demonstrated the accuracy of classifying particular examples correctly. The study’s raw data was primarily aggregated from a number of Wharton databases, which was heavily preprocessed, normalized, and consolidated for specific features that needed such wrangling to achieve more sensible results.
+
                     </p>
                     <p class="leftText">
-                        In the end, demonstrated that an optimized SVM classifier using my model can correctly
-                        predict a stock’s directional movement on the initial collection (Apple, Disney, and Nike),
-                        as well as on a bundle of 50 stocks with ~72% accuracy on average. Concluded that there are
-                        clear correlations between historical financial data that can be used to predict a stock’s
-                        directional movement, but there is not enough confidence in these results to actually
-                        rely on such a model to manage one’s own investments, without using significantly richer
-                        training data to increase accuracy and reduce noise in the results.
+                        In the end, demonstrated that an optimized SVM classifier using my model can correctly predict a stock’s directional movement on the initial collection (Apple, Disney, and Nike), as well as on a bundle of 50 stocks with ~72% accuracy on average. Concluded that there are clear correlations between historical financial data that can be used to predict a stock’s directional movement, but there is not enough confidence in these results to actually rely on such a model to manage one’s own investments, without using significantly richer training data to increase accuracy and reduce noise in the results.
                     </p>
                     <p class="textTech">
                         <strong>Technologies Used: </strong>
@@ -267,65 +240,80 @@
                     <img class="pic" src="img/projectPics/stockPlots.jpg"/>
                     <img class="pic" src="img/projectPics/stockTraining.jpg"/>
                     <img class="pic" src="img/projectPics/stockTesting.jpg"/>
-                    <p class="caption">
-                        The figures shown above examine Apple. The top most figure shows 3D surface plots,
-                        parameterized against (w, k), with the z-axis depicting precision score accuracies for
-                        the top three most effective classifiers. The second figure details Apple’s un-optimized
-                        SVM training performance, while the third figure demonstrates the optimized SVM testing
-                        performance. Here, there are limited higher accuracies, albeit the effect of noise on
-                        the results is more prevalent with some overfitting through using GridSearch in the
-                        optimization and the lack of higher resolution data.
+                    <p class="captionRight">
+                        The figures shown above examine Apple. The top most figure shows 3D surface plots, parameterized against (w, k), with the z-axis depicting precision score accuracies for the top three most effective classifiers. The second figure details Apple’s un-optimized SVM training performance, while the third figure demonstrates the optimized SVM testing performance. Here, there are limited higher accuracies, albeit the effect of noise on the results is more prevalent with some overfitting through using GridSearch in the optimization and the lack of higher resolution data.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="left">
+                    <img class="pic" src="img/projectPics/488_1.jpg"/>
+                    <img class="pic" src="img/projectPics/488_2.jpg"/>
+                    <img class="pic" src="img/projectPics/488_3.jpg"/>
+                    <img class="pic" src="img/projectPics/488_4.jpg"/>
+                    <img class="pic" src="img/projectPics/488_5.jpg"/>
+                    <p class="captionLeft">
+                        The top figure shows the images included in the Yale B dataset as a whole. The second and third images detail the varying performance between classifying four men and four women’s faces worth of data aggregated together, with and without sunglasses. The second image shows the training data with testing validation performing well, but in figure three when the eyes of each person are blocked, the testing performance drops significantly. This makes sense because eyes contain much unique information about one’s face. Lastly, figures four and five show how a varying “C” factor for an SVM can actually improve the accuracy of the classifier moving from small C’s to high C’s in this case. This is just one of many examples of SVM optimization incorporated in this project.
+
+                    </p>
+                </div>
+                <div class="right">
+                    <h3 class="leftTextTitle">Facial Recognition Image Processing:</h3>
+                    <h4 class="leftTextTitle" style="font-style: italic;">Feb - May 2016</h4>
+                    <p class="leftText">
+                        This project aims to analyze the YALE B facial dataset to understand how well a Support Vector Machine (SVM) can classify facial images. Within this dataset, there are frontal face images of 38 participants, with roughly 60 images per subject, where the total number of images is 2,414. Since the dimensions of each image is 192 x 168 pixels, there are a total of 32,256 column vectors stored in a matrix per image, with a corresponding label for each of the 2,414 images.
+
+                    </p>
+                    <p class="leftText">
+                        Since each image has a dimension of 32,356, it would be computationally rigorous to process these raw images. Thus, a more efficient method of principal component analysis was chosen, which involves projecting the raw image to a smaller one that keeps only “d” of the most important component vectors of the original image to preserve the most valuable information in the least space. These “d” components have the largest variances in the original image. Through such projections, the quality of the image is slightly reduced, but the gains made in computational space conservation exceed these reductions significantly.
+                    </p>
+                    <p class="leftText">
+                        After preprocessing the projected images and normalizing, a variety of SVM’s were constructed and tested for their training and testing performance on subsets of the data, while varying certain parameters. For example, SVM’s were tested by varying the number of “d” components used to project upon and altering the type of classifier (linear, rbf, poly, etc).
+                    </p>
+                    <p class="leftText">
+                        More interestingly, however, tests for binary classification on identifying men’s and women’s faces using “d” dimensional PCA projections were compared, with and without sunglasses, as shown to the right. Also, the method of implementing PCA to reduce image size was compared against simply subsampling the images. Numerous properties of SVM’s were discovered as a result of these tests, where certain kernels perform well for different tasks, while other SVM parameters like the gamma and C factors objectively increased accuracies. Further study is being conducted to determine more efficient ways to correctly classify images while further reducing the number of components used in the PCA images to improve efficiency.
+                    </p>
+                    <p class="textTech">
+                        <strong>Technologies Used: </strong>
+                        Python, Image Processing Theory, Support Vector Machine Optimization, Big Data Processing,
+                        Principal Component Analysis
+                    </p>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="left">
+                    <h3 class="leftTextTitle">Recommendation and Ranking System Modelling</h3>
+                    <h4 class="leftTextTitle" style="font-style: italic;">Sept. 2015 - Dec. 2015</h4>
+                    <p class="leftText">
+                        Add description here!
+                    </p>
+                    <p class="textTech">
+                        <strong>Technologies Used: </strong>
+                        Addd hereeeee
                     </p>
                 </div>
 
-                <div class="project">
-                    <div class="left">
-                        <img class="pic" src="img/Stock/AAPL.jpeg"/>
-                    </div>
-                    <div class="right">
-                        <h3 class="leftTextTitle">Facial Recognition Image Processing:</h3>
-                        <h4 class="leftTextTitle" style="font-style: italic;">Feb - May 2016</h4>
-                        <p class="leftText">Add description</p>
-                        <p class="textTech">
-                            <strong>Technologies Used: </strong>
-                            Add tech!
-                        </p>
-                    </div>
+                <div class="right pc_mobile">
+
+                    Add pictures here!
+
                 </div>
+            </div>
 
-                <div class="project">
-                    <div class="left">
-                        <h3 class="leftTextTitle">Recommendation and Ranking System Modelling</h3>
-                        <h4 class="leftTextTitle" style="font-style: italic;">Sept. 2015 - Dec. 2015</h4>
-                        <p class="leftText">
-                            Add description here!
-                        </p>
-                        <p class="textTech">
-                            <strong>Technologies Used: </strong>
-                            Addd hereeeee
-                        </p>
-                    </div>
-
-                    <div class="right pc_mobile">
-
-                        Add pictures here!
-
-                    </div>
-
-                    <div class="project">
-                        <div class="left">
-                            <img class="pic" src="img/Stock/AAPL.jpeg"/>
-                        </div>
-                        <div class="right">
-                            <h3 class="leftTextTitle">US Patent Trade Office Marketing Automation Software</h3>
-                            <h4 class="leftTextTitle" style="font-style: italic;">June - Aug. 2014</h4>
-                            <p class="leftText">Add description</p>
-                            <p class="textTech">
-                                <strong>Technologies Used: </strong>
-                                Add tech!
-                            </p>
-                        </div>
-                    </div>
+            <div class="project">
+                <div class="left">
+                    <img class="pic" src="img/Stock/AAPL.jpeg"/>
+                </div>
+                <div class="right">
+                    <h3 class="leftTextTitle">US Patent Trade Office Marketing Automation Software</h3>
+                    <h4 class="leftTextTitle" style="font-style: italic;">June - Aug. 2014</h4>
+                    <p class="leftText">Add description</p>
+                    <p class="textTech">
+                        <strong>Technologies Used: </strong>
+                        Add tech!
+                    </p>
                 </div>
             </div>
         </div>
@@ -351,7 +339,8 @@
                     </p>
                 </div>
                 <div class="right pc_mobile" style="padding-right: 50px;">
-                    <iframe height="450" src="https://www.youtube.com/embed/G6UHm3pTlLY" frameborder="0" allowfullscreen></iframe>
+                    <iframe height="450" src="https://www.youtube.com/embed/G6UHm3pTlLY" frameborder="0"
+                            allowfullscreen></iframe>
                 </div>
                 <div class="project">
                     <div class="left">

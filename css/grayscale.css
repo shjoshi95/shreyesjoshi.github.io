@@ -91,7 +91,7 @@ a:focus {
 .project {
     width: 100%;
     height: 100%;
-    margin-bottom: 12%;
+    margin-bottom: 5%;
     overflow: hidden;
 }
 
@@ -214,7 +214,15 @@ a:focus {
         text-align: left;
     }
 
-    .caption {
+    .captionLeft {
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 30px !important;
+        margin-right: 120px !important;
+        font-size: 12px !important;
+    }
+
+    .captionRight {
         text-align: left;
         margin-top: 10px;
         margin-left: 130px !important;
