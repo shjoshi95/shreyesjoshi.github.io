@@ -331,81 +331,93 @@
                     <h3 class="leftTextTitle">Car Lab</h3>
                     <h4 class="leftTextTitle" style="font-style: italic;">Feb. 2016 - May 2016</h4>
                     <p class="leftText">
-                        Add description here!
+                        The “Car Lab” is the core Electrical Engineering lab requirement at Princeton University, whose purpose involves students building a car that achieves two main goals –
+                    </p>
+                    <p class="leftText">
+                        1. The car must move autonomously at a minimum speed of 4 ft/s, where the car would be exposed to either flat, uphill or downhill driving conditions (speed control).
+                    </p>
+                    <p class="leftText">
+                        2. The car must follow a black tape track without any supplementary external control.
+                    </p>
+                    <p class="leftText">
+                        The first challenge involved designing hardware components to transfer adequate power to various parts of the car, as well as additional modules to handle signals from the Hall effect sensor and actuate upon this input through an appropriate PWM (Pulse Width Modulation) response that would regulate the motor to maintain the desired equilibrium speed. The exact output of the PWM responses were controlled by a finely tuned Proportional, Integral, and Derivative (PID) feedback algorithm. During this process, the robust integration between the software written in C on a PSoC microcontroller and the various hardware components established a deep, intricate system that would accomplish the desired goal.
+                    </p>
+                    <p class="leftText">
+                        The second challenge was to build a new system on top of the initial speed control framework that would enable the car to follow a black tape track autonomously as well. The black tape track was composed of two intersecting tracks and the car has to stay on the same track at a constant speed of at least 4 ft/s, for two full laps, to complete this challenge. The main components of the design solution involved the creation of a Sync Board to interface with an external black and white camera, a comparator chip, and new PSoC software/module design to fulfill the upgraded PID-hardware interfacing. A brief video demo and pictures of the car are shown to the right.
                     </p>
                     <p class="textTech">
                         <strong>Technologies Used: </strong>
-                        Addd hereeeee
+                        Circuit Design and Building, Digital Logic, Signal Processing, C Programming on PSoC, PID Control Algorithm Design, System Design
                     </p>
                 </div>
                 <div class="right pc_mobile" style="padding-right: 50px;">
                     <iframe height="450" src="https://www.youtube.com/embed/G6UHm3pTlLY" frameborder="0"
                             allowfullscreen></iframe>
+                    <img class="pic" src="img/projectPics/302_1.jpg"/>
                 </div>
-                <div class="project">
-                    <div class="left">
-                        <img class="pic" src="img/Stock/AAPL.jpeg"/>
-                    </div>
-                    <div class="right">
-                        <h3 class="leftTextTitle">BB-8</h3>
-                        <h4 class="leftTextTitle" style="font-style: italic;">June - Aug. 2014</h4>
-                        <p class="leftText">Add description</p>
-                        <p class="textTech">
-                            <strong>Technologies Used: </strong>
-                            Add tech!
-                        </p>
-                    </div>
+            </div>
+            <div class="project">
+                <div class="left">
+                    <img class="pic" src="img/Stock/AAPL.jpeg"/>
+                </div>
+                <div class="right">
+                    <h3 class="leftTextTitle">BB-8</h3>
+                    <h4 class="leftTextTitle" style="font-style: italic;">June - Aug. 2014</h4>
+                    <p class="leftText">Add description</p>
+                    <p class="textTech">
+                        <strong>Technologies Used: </strong>
+                        Add tech!
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="left">
+                    <h3 class="leftTextTitle">ElectroCardioGraph (ECG):</h3>
+                    <h4 class="leftTextTitle" style="font-style: italic;">Sept 2014. - Jan. 2015</h4>
+                    <p class="leftText">As part of a final project in a Princeton circuits course, I designed an
+                        ElectroCardioGraph (ECG) circuit, which measures one’s heart rate. This popular and
+                        non-invasive
+                        device functions by using electrical probes that can be attached to a human patient to trace
+                        electrical signals generated by the polarization and depolarization of cardiac tissue, which
+                        is
+                        then translated into a waveform. At a high level, an ECG’s probes capture the input to the
+                        general ECG circuit, which consists of an instrumentation amplifier, a variable-gain
+                        amplifier,
+                        a band-pass filter, and a notch filter. From the notch filter, an output signal is produced
+                        which contains the desired data of one’s heart rate in terms of valuable parameters such as
+                        frequency and voltage amplitude. This output signal was manifested through a custom LED
+                        beating
+                        heart using an ArduinoUno in C.</p>
+
+                    <p class="textTech">
+                        <strong>Technologies Used: </strong>
+                        Circuit Design, Amplifiers, Filters, Impluse Response Analysis, C, and ArduinoUno
+                    </p>
+
+                    <!--<a target="_blank" href="/Fall%202014%20APF.pdf">Download Test</a>-->
                 </div>
 
-                <div class="project">
-                    <div class="left">
-                        <h3 class="leftTextTitle">ElectroCardioGraph (ECG):</h3>
-                        <h4 class="leftTextTitle" style="font-style: italic;">Sept 2014. - Jan. 2015</h4>
-                        <p class="leftText">As part of a final project in a Princeton circuits course, I designed an
-                            ElectroCardioGraph (ECG) circuit, which measures one’s heart rate. This popular and
-                            non-invasive
-                            device functions by using electrical probes that can be attached to a human patient to trace
-                            electrical signals generated by the polarization and depolarization of cardiac tissue, which
-                            is
-                            then translated into a waveform. At a high level, an ECG’s probes capture the input to the
-                            general ECG circuit, which consists of an instrumentation amplifier, a variable-gain
-                            amplifier,
-                            a band-pass filter, and a notch filter. From the notch filter, an output signal is produced
-                            which contains the desired data of one’s heart rate in terms of valuable parameters such as
-                            frequency and voltage amplitude. This output signal was manifested through a custom LED
-                            beating
-                            heart using an ArduinoUno in C.</p>
+                <div class="right pc_mobile">
 
-                        <p class="textTech">
-                            <strong>Technologies Used: </strong>
-                            Circuit Design, Amplifiers, Filters, Impluse Response Analysis, C, and ArduinoUno
-                        </p>
-
-                        <!--<a target="_blank" href="/Fall%202014%20APF.pdf">Download Test</a>-->
-                    </div>
-
-                    <div class="right pc_mobile">
-
-                        <div id="cp_widget_a36feeca-cb0c-4ee6-817c-01a2ec1c5035">...</div>
-                        <script type="text/javascript">
-                            var cpo = [];
-                            cpo["_object"] = "cp_widget_a36feeca-cb0c-4ee6-817c-01a2ec1c5035";
-                            cpo["_fid"] = "AgGAk4cKdEu7";
-                            var _cpmp = _cpmp || [];
-                            _cpmp.push(cpo);
-                            (function () {
-                                var cp = document.createElement("script");
-                                cp.type = "text/javascript";
-                                cp.async = true;
-                                cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-                                var c = document.getElementsByTagName("script")[0];
-                                c.parentNode.insertBefore(cp, c);
-                            })(); </script>
-                        <noscript>Powered by Cincopa <a href='http://www.cincopa.com/video-hosting'>Video Hosting for
-                            Business</a>
-                            solution.<span>ECG_pc</span><span>Full Circuit</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 480</span><span>width</span><span> 480</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Heartbeat Pulse</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 360</span><span>width</span><span> 480</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Arduino Visualizer</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 262</span><span>width</span><span> 207</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Beats Per Minute</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 179</span><span>width</span><span> 187</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Instrumentation Amplifier</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 288</span><span>width</span><span> 366</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Variable Gain Amplifier</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 288</span><span>width</span><span> 340</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Band-Pass Filter</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 160</span><span>width</span><span> 383</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Notch Filter</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 281</span><span>width</span><span> 656</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Animated Hearts</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 202</span><span>width</span><span> 202</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span>
-                        </noscript>
-                    </div>
+                    <div id="cp_widget_a36feeca-cb0c-4ee6-817c-01a2ec1c5035">...</div>
+                    <script type="text/javascript">
+                        var cpo = [];
+                        cpo["_object"] = "cp_widget_a36feeca-cb0c-4ee6-817c-01a2ec1c5035";
+                        cpo["_fid"] = "AgGAk4cKdEu7";
+                        var _cpmp = _cpmp || [];
+                        _cpmp.push(cpo);
+                        (function () {
+                            var cp = document.createElement("script");
+                            cp.type = "text/javascript";
+                            cp.async = true;
+                            cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+                            var c = document.getElementsByTagName("script")[0];
+                            c.parentNode.insertBefore(cp, c);
+                        })(); </script>
+                    <noscript>Powered by Cincopa <a href='http://www.cincopa.com/video-hosting'>Video Hosting for
+                        Business</a>
+                        solution.<span>ECG_pc</span><span>Full Circuit</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 480</span><span>width</span><span> 480</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Heartbeat Pulse</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 360</span><span>width</span><span> 480</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Arduino Visualizer</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 262</span><span>width</span><span> 207</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Beats Per Minute</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 179</span><span>width</span><span> 187</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Instrumentation Amplifier</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 288</span><span>width</span><span> 366</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Variable Gain Amplifier</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 288</span><span>width</span><span> 340</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Band-Pass Filter</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 160</span><span>width</span><span> 383</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Notch Filter</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 281</span><span>width</span><span> 656</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span><span>Animated Hearts</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>height</span><span> 202</span><span>width</span><span> 202</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> Adobe Photoshop CS6 </span>
+                    </noscript>
                 </div>
             </div>
         </div>
