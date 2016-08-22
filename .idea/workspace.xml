@@ -26,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="689" column="91" selection-start-line="689" selection-start-column="91" selection-end-line="689" selection-end-column="91" />
+            <state relative-caret-position="327">
+              <caret line="388" column="37" selection-start-line="388" selection-start-column="37" selection-end-line="388" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -656,12 +656,12 @@
       <workItem from="1470964419233" duration="13793000" />
       <workItem from="1471287847846" duration="9598000" />
       <workItem from="1471497481453" duration="5117000" />
-      <workItem from="1471836870508" duration="4422000" />
+      <workItem from="1471836870508" duration="4533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39977000" />
+    <option name="totallyTimeSpent" value="40088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="701" extended-state="6" />
@@ -894,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="689" column="91" selection-start-line="689" selection-start-column="91" selection-end-line="689" selection-end-column="91" />
+        <state relative-caret-position="327">
+          <caret line="388" column="37" selection-start-line="388" selection-start-column="37" selection-end-line="388" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
