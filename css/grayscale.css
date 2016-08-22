@@ -58,6 +58,10 @@ a:focus {
 
 }
 
+.caption {
+    text-align: left;
+}
+
 #garden {
     padding-top: 6%;
     margin-top: -6%;
