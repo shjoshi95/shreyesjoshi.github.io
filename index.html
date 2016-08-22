@@ -299,7 +299,7 @@
     </div>
 </section>
 
-<!--Hardware Projects-->
+<!--Hardware Projects PC -->
 <section id="projectsHardwarePC" class="pc container content-section text-center">
     <div class="row">
         <div class="col-lg-12 col-lg-offset-0">
@@ -576,6 +576,89 @@
                         Python, Amazon EC2, PostgreSQL, SQLite, XML Data Scraping and Normalization
                     </p>
                     <img class="pic" src="img/projectPics/coming_soon.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Hardware Projects PC -->
+<section id="projectsHardwareMobile" class="mobile container content-section text-center">
+    <div class="row">
+        <div class="col-lg-12 col-lg-offset-0">
+            <h3 class="title">Electrical Engineering and Embedded Systems Projects</h3>
+
+            <div class="project">
+                <div class="left">
+                    <h4 class="leftTextTitle">Car Lab</h4>
+                    <h5 class="leftTextTitle" style="font-style: italic;">Feb. 2016 - May 2016</h5>
+                    <p class="leftText">
+                        The “Car Lab” is the core Electrical Engineering lab requirement at Princeton University, whose purpose involves students building a car that achieves two main goals –
+                    </p>
+                    <p class="leftText">
+                        1. The car must move autonomously at a minimum speed of 4 ft/s, where the car would be exposed to either flat, uphill or downhill driving conditions (speed control).
+                    </p>
+                    <p class="leftText">
+                        2. The car must follow a black tape track without any supplementary external control.
+                    </p>
+                    <p class="leftText">
+                        The first challenge involved designing hardware components to transfer adequate power to various parts of the car, as well as additional modules to handle signals from the Hall effect sensor and actuate upon this input through an appropriate PWM (Pulse Width Modulation) response that would regulate the motor to maintain the desired equilibrium speed. The exact output of the PWM responses were controlled by a finely tuned Proportional, Integral, and Derivative (PID) feedback algorithm. During this process, the robust integration between the software written in C on a PSoC microcontroller and the various hardware components established a deep, intricate system that would accomplish the desired goal.
+                    </p>
+                    <p class="leftText">
+                        The second challenge was to build a new system on top of the initial speed control framework that would enable the car to follow a black tape track autonomously as well. The black tape track was composed of two intersecting tracks and the car has to stay on the same track at a constant speed of at least 4 ft/s, for two full laps, to complete this challenge. The main components of the design solution involved the creation of a Sync Board to interface with an external black and white camera, a comparator chip, and new PSoC software/module design to fulfill the upgraded PID-hardware interfacing. A brief video demo and pictures of the car are shown to the right.
+                    </p>
+                    <p class="textTech">
+                        <strong>Technologies Used: </strong>
+                        Circuit Design and Building, Digital Logic, Signal Processing, C Programming on PSoC, PID Control Algorithm Design, System Design
+                    </p>
+                </div>
+                <iframe height="450" style="margin-bottom: 30px;" src="https://www.youtube.com/embed/G6UHm3pTlLY" frameborder="0" allowfullscreen></iframe>
+                <img class="pic" src="img/projectPics/302_1.jpg"/>
+            </div>
+            <div class="project">
+                <div class="right">
+                    <h4 class="leftTextTitle">BB-8</h4>
+                    <h5 class="leftTextTitle" style="font-style: italic;">June - Aug. 2014</h5>
+                    <p class="leftText">
+                        The BB-8 Project was the succession of the Car Lab project shown above, where students were tasked with the full design, build, and testing of a unique electro-mechanical device. My partner and I set out to built a replica of BB-8 from Star Wars, a four-wheeled robot that can balance on top of any ball. The sensor board used in the model, a 9 degrees of freedom inertial motion tracker, senses the current balancing state of the robot. It passes that information to the Arduino micro-controller, the brains of the operations, which computes the appropriate parameters to actuate our robot using the motor controller board, which controls four independent gearbox motors.
+                    </p>
+                    <p class="leftText">
+                        The full chassis of BB-8 was designed via 3D modelling on AutoDesk inventor, from which each of the individually designed components (nearly 50!), were cut out of acrylic using a laser cutter. Our design is unique because each the four motors, which turn omni-wheels, have adjustable angle adjustment, which allows the robot to get the correct angle to balance on top of any ball. The main batteries are stored above the primary chassis, with the core electronics housed above in a tower like structure.
+                    </p>
+                    <p class="leftText">
+                        A two dimensional PID loop was implemented to control the four motors such that as soon as the robot starts falling in any direction off the side of the ball, the sensor board would pick up on those readings, which would be processed in our PID function loop. The output of this function is in the form of Pulse Width Modulation, which is sent to the motors to rebalance BB-8 on top of the ball. A few pictures of the build process are shown here, with a balancing video coming soon!
+                    </p>
+                    <p class="textTech">
+                        <strong>Technologies Used: </strong>
+                        Inventor CAD Design, Laser Cutting, Mechanical and Electronic Design, Robotics, C Programming on Arduino Mega, PID Control Algorithm Tuning
+                    </p>
+                    <img class="pic" src="img/projectPics/BB8_1.jpg"/>
+                    <iframe style="margin-top: 40px; margin-left: 15px;" width="475" height="475" src="https://www.youtube.com/embed/cJZpCrDDrsQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="project">
+                <div class="left">
+                    <h4 class="leftTextTitle">ElectroCardioGraph (ECG):</h4>
+                    <h5 class="leftTextTitle" style="font-style: italic;">Sept 2014. - Jan. 2015</h5>
+                    <p class="leftText">As part of a final project in a Princeton circuits course, I designed an
+                        ElectroCardioGraph (ECG) circuit, which measures one’s heart rate. This popular and
+                        non-invasive
+                        device functions by using electrical probes that can be attached to a human patient to trace
+                        electrical signals generated by the polarization and depolarization of cardiac tissue, which
+                        is
+                        then translated into a waveform. At a high level, an ECG’s probes capture the input to the
+                        general ECG circuit, which consists of an instrumentation amplifier, a variable-gain
+                        amplifier,
+                        a band-pass filter, and a notch filter. From the notch filter, an output signal is produced
+                        which contains the desired data of one’s heart rate in terms of valuable parameters such as
+                        frequency and voltage amplitude. This output signal was manifested through a custom LED
+                        beating
+                        heart using an ArduinoUno in C.</p>
+
+                    <p class="textTech">
+                        <strong>Technologies Used: </strong>
+                        Circuit Design, Amplifiers, Filters, Impluse Response Analysis, C, and ArduinoUno
+                    </p>
                 </div>
             </div>
         </div>
