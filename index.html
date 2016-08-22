@@ -78,9 +78,6 @@
                 <li>
                     <a class="page-scroll" href="#projectsPC">Projects</a>
                 </li>
-                <!--                     <li>
-                                        <a class="page-scroll" href="#download">Download</a>
-                                    </li> -->
                 <li>
                     <a class="page-scroll" href="#contact">Resume</a>
                 </li>
@@ -117,9 +114,6 @@
                 <li>
                     <a class="page-scroll" href="#projectsMobile">Projects</a>
                 </li>
-                <!--                     <li>
-                                        <a class="page-scroll" href="#download">Download</a>
-                                    </li> -->
                 <li>
                     <a class="page-scroll" href="#contact">Resume</a>
                 </li>
@@ -206,7 +200,7 @@
     </div>
 </section>
 
-<!--Software Projects-->
+<!--Software Projects PC -->
 <section id="projectsSoftwarePC" class="pc container content-section text-center">
     <div class="row">
         <div class="col-lg-12 col-lg-offset-0">
@@ -474,8 +468,129 @@
     </div>
 </section>
 
-<!-- Mobile Project Section -->
-<section id="projectsMobile" class="mobile container content-section text-center">
+<!-- Mobile Projects Section -->
+
+<section id="projectsMobile" class="class container content-section text-center">
+    <div class="row">
+        <div class="col-lg-12 col-lg-offset-0">
+            <h1>Projects</h1>
+        </div>
+        <table style="table-layout: fixed; margin-top: -10px; margin-left:auto; margin-right: auto;">
+            <tr> 
+                <th><a class="page-scroll buttonLink" href="#projectsSoftwareMobile">Software/Machine Learning</a></th>
+            </tr>
+            <tr>
+                <th><a class="page-scroll buttonLink" href="#projectsHardwarePC">Electrical Engineering</a></th>
+            </tr>
+            <tr>
+                <th><a class="page-scroll buttonLink" href="#projectsOtherPC">Hobbies</a></th>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<!--Software Projects-->
+<section id="projectsSoftwareMobile" class="class container content-section text-center">
+    <div class="row">
+        <div class="col-lg-12 col-lg-offset-0">
+            <h2 class="title">Software Engineering and Machine Learning Projects</h2>
+
+            <div class="project">
+                <div class="left">
+                    <h3 class="leftTextTitle">Stock Price Trajectory Classification Independent Research:</h3>
+                    <h4 class="leftTextTitle" style="font-style: italic;">Sept 2015. - June 2016</h4>
+                    <p class="leftText">
+                        This research focused on generating a unique stock price forecasting model through machine learning using fundamental data that is publically available to all types of investors. Unlike hedge funds, who have exclusive access to premier and costly training data acquired through financial service providers, the common investor only has access to basic public information including price, volume, and options data. Using public data as a feature set, this research studies the effectiveness of training 5 machine learning models using <strong>w</strong> days of financial history to predict how a stock’s price will rise or fall <strong>k</strong> days away within a certain target radius <strong>r</strong>.
+                    </p>
+                    <p class="leftText">
+                        The study primarily analyzed 3 stocks – Apple, Disney, and Nike, for their market scale and diversified representation of different sectors of the global market. Using numerous experimental methods, analysis, and thorough customized software modules programmed in Python, the model described above was successfully formulated. Moreover, the precision score accuracies for the experimental parameters (w, k, r) were optimized for the Support Vector Machine (SVM) model.
+                    </p>
+                    <p class="leftText">
+                        Since the framework of this research was based in Python, and as a result the “scikit-learn”, “pandas” and “numpy” were used in conjunction to implement five different ML algorithms: Logistic Regression, Naïve-Bayes Gaussian, K Neighbors Classifiers, the Decision Tree Classifier, and the Support Vector Machine (SVM). Since this research deals with a binary classification problem into the classes {1, -1}, for upward or downward movement, all five of these algorithms were trained based on the model detailed above. Each model’s performance was then evaluated on a corresponding testing data set, where the results were quantified with a precision score in the range of 0 to 1 that demonstrated the accuracy of classifying particular examples correctly. The study’s raw data was primarily aggregated from a number of Wharton databases, which was heavily preprocessed, normalized, and consolidated for specific features that needed such wrangling to achieve more sensible results.
+
+                    </p>
+                    <p class="leftText">
+                        In the end, demonstrated that an optimized SVM classifier using my model can correctly predict a stock’s directional movement on the initial collection (Apple, Disney, and Nike), as well as on a bundle of 50 stocks with ~72% accuracy on average. Concluded that there are clear correlations between historical financial data that can be used to predict a stock’s directional movement, but there is not enough confidence in these results to actually rely on such a model to manage one’s own investments, without using significantly richer training data to increase accuracy and reduce noise in the results.
+                    </p>
+                    <p class="textTech">
+                        <strong>Technologies Used: </strong>
+                        Python, ML Methods, Classification, Big Data Aggregation,
+                        Stock and Financial Theory, Statistics
+                    </p>
+                </div>
+
+                <div class="right pc_mobile">
+                    <img class="pic" src="img/projectPics/stockPlots.jpg"/>
+                    <img class="pic" src="img/projectPics/stockTraining.jpg"/>
+                    <img class="pic" src="img/projectPics/stockTesting.jpg"/>
+                    <p class="captionRight">
+                        The figures shown above examine Apple. The top most figure shows 3D surface plots, parameterized against (w, k), with the z-axis depicting precision score accuracies for the top three most effective classifiers. The second figure details Apple’s un-optimized SVM training performance, while the third figure demonstrates the optimized SVM testing performance. Here, there are limited higher accuracies, albeit the effect of noise on the results is more prevalent with some overfitting through using GridSearch in the optimization and the lack of higher resolution data.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="left">
+                    <img class="pic" src="img/projectPics/488_1.jpg"/>
+                    <img class="pic" src="img/projectPics/488_2.jpg"/>
+                    <img class="pic" src="img/projectPics/488_3.jpg"/>
+                    <img class="pic" src="img/projectPics/488_4.jpg"/>
+                    <img class="pic" src="img/projectPics/488_5.jpg"/>
+                    <p class="captionLeft">
+                        The top figure shows the images included in the Yale B dataset as a whole. The second and third images detail the varying performance between classifying four men and four women’s faces worth of data aggregated together, with and without sunglasses. The second image shows the training data with testing validation performing well, but in figure three when the eyes of each person are blocked, the testing performance drops significantly. This makes sense because eyes contain much unique information about one’s face. Lastly, figures four and five show how a varying “C” factor for an SVM can actually improve the accuracy of the classifier moving from small C’s to high C’s in this case. This is just one of many examples of SVM optimization incorporated in this project.
+
+                    </p>
+                </div>
+                <div class="right">
+                    <h3 class="leftTextTitle">Facial Recognition Image Processing:</h3>
+                    <h4 class="leftTextTitle" style="font-style: italic;">Feb - May 2016</h4>
+                    <p class="leftText">
+                        This project aims to analyze the YALE B facial dataset to understand how well a Support Vector Machine (SVM) can classify facial images. Within this dataset, there are frontal face images of 38 participants, with roughly 60 images per subject, where the total number of images is 2,414. Since the dimensions of each image is 192 x 168 pixels, there are a total of 32,256 column vectors stored in a matrix per image, with a corresponding label for each of the 2,414 images.
+
+                    </p>
+                    <p class="leftText">
+                        Since each image has a dimension of 32,356, it would be computationally rigorous to process these raw images. Thus, a more efficient method of principal component analysis was chosen, which involves projecting the raw image to a smaller one that keeps only “d” of the most important component vectors of the original image to preserve the most valuable information in the least space. These “d” components have the largest variances in the original image. Through such projections, the quality of the image is slightly reduced, but the gains made in computational space conservation exceed these reductions significantly.
+                    </p>
+                    <p class="leftText">
+                        After preprocessing the projected images and normalizing, a variety of SVM’s were constructed and tested for their training and testing performance on subsets of the data, while varying certain parameters. For example, SVM’s were tested by varying the number of “d” components used to project upon and altering the type of classifier (linear, rbf, poly, etc).
+                    </p>
+                    <p class="leftText">
+                        More interestingly, however, tests for binary classification on identifying men’s and women’s faces using “d” dimensional PCA projections were compared, with and without sunglasses, as shown to the right. Also, the method of implementing PCA to reduce image size was compared against simply subsampling the images. Numerous properties of SVM’s were discovered as a result of these tests, where certain kernels perform well for different tasks, while other SVM parameters like the gamma and C factors objectively increased accuracies. Further study is being conducted to determine more efficient ways to correctly classify images while further reducing the number of components used in the PCA images to improve efficiency.
+                    </p>
+                    <p class="textTech">
+                        <strong>Technologies Used: </strong>
+                        Python, Image Processing Theory, Support Vector Machine Optimization, Big Data Processing,
+                        Principal Component Analysis
+                    </p>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="right">
+                    <img class="pic" src="img/projectPics/coming_soon.png"/>
+                </div>
+                <div class="left">
+                    <h3 class="leftTextTitle">US Patent Trade Office Marketing Automation Software</h3>
+                    <h4 class="leftTextTitle" style="font-style: italic;">June - Aug. 2014</h4>
+                    <p class="leftText">
+                        While interning at the Entrepreneurs Roundtable Accelerator in the summer of June – August 2014, I worked primarily with the legal startup Plainlegal to develop a marketing automation software that generated over 1 million leads to market their product. Plainlegal offers lawyers an automated method of filing trademark applications to the United States Patent Trade Office (USPTO) in the form of a compact software, which was to be advertised to all of the trademark lawyers in the United States. In order to do so, I formulated a scraping tool in Python that directly accessed the USPTO’s public directory to retrieve the background data on all of the trademark lawyers who have ever filed with the United States. There were millions of XML entries to be parsed through, where each entry had multiple aliases of lawyer data.
+                    </p>
+                    <p class="leftText">
+                        To make sense of the information, I crafted complex normalization and text processing methods to refine the data and store it in PostgreSQL/SQLite databases, from which data on all lawyers in the United States can be queried at ease. This information was pivotal in marketing Plainlegal’s product and led to much business and revenue generation for the company. Once the scraping routine was thoroughly tested and made robust, I pushed the code to Amazon EC2 servers in the cloud where the scripts would run continuously to add new lawyer data released by the USPTO in real time, while performing a week long cycle to collect gigabytes of historical data.
+                    </p>
+                    <p class="textTech">
+                        <strong>Technologies Used: </strong>
+                        Python, Amazon EC2, PostgreSQL, SQLite, XML Data Scraping and Normalization
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="projectsMobiles" class="mobile container content-section text-center">
     <div class="row">
         <div class="col-lg-12 col-lg-offset-0">
             <h2 class="title">Projects</h2>
