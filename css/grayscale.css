@@ -173,7 +173,7 @@ a:focus {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
-    margin: 35px 5px 35px 0px;
+    margin: 45px 5px 45px 0px;
     padding: 15px 25px;
     position: relative;
     text-align:center;
@@ -494,7 +494,7 @@ a:focus {
     }
 
     .mobile {
-        display: none;
+        display: none !important;
     }
 
     .pc {
@@ -665,7 +665,7 @@ a:focus {
     height: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/widebeach.jpg) no-repeat center center scroll;
+    background: url(../img/wideStar.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
